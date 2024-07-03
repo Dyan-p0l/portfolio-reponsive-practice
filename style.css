@@ -235,15 +235,15 @@ h1{
 }
 
 .curve{
-    background-image: url(/svgs/curve.svg);
+    background-image: url(./svgs/curve.svg);
 }
 
 .curve2{
-    background-image: url(/svgs/curve2.svg);
+    background-image: url(./svgs/curve2.svg);
 }
 
 .curve3{
-    background-image: url(/svgs/curve3.svg);
+    background-image: url(./svgs/curve3.svg);
 }
 
 section{
@@ -291,7 +291,7 @@ section h1{
     max-width: 26.96125rem;
     height: 500px;
     width: 38%;
-    background-image: url(/images/about-image.jpg);
+    background-image: url(./images/about-image.jpg);
     background-size: cover;
     animation: animate2 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
@@ -382,7 +382,7 @@ section h1{
     height: 170px;
     width: 73%;
     border-radius: 1rem;
-    background-image: url(images/turtletype.png);
+    background-image: url(.images/turtletype.png);
     background-size: cover;
     background-position: center center;
 }
@@ -395,7 +395,7 @@ section h1{
     height: 170px;
     width: 76%;
     border-radius: 1rem;
-    background-image: url(images/nitro-mario.png);
+    background-image: url(.images/nitro-mario.png);
     background-size: cover;
     background-position: center center ;
 }
