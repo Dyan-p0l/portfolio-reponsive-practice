@@ -382,7 +382,7 @@ section h1{
     height: 170px;
     width: 73%;
     border-radius: 1rem;
-    background-image: url(.images/turtletype.png);
+    background-image: url(images/turtletype.png);
     background-size: cover;
     background-position: center center;
 }
@@ -395,7 +395,7 @@ section h1{
     height: 170px;
     width: 76%;
     border-radius: 1rem;
-    background-image: url(.images/nitro-mario.png);
+    background-image: url(images/nitro-mario.png);
     background-size: cover;
     background-position: center center ;
 }
