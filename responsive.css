@@ -139,14 +139,11 @@
     
 }
 
-@media screen and (max-width: 369px){
-
-   
+@media screen and (max-width: 380px){
 
     .nav-links{
         width: auto;
         gap: 1.5rem;
-        display: none;
     }
 
         
