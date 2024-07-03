@@ -10,9 +10,10 @@
         position: sticky;
         top: -2.49rem;
         max-width: 100%;
-        height: 8rem;
+        height: auto;
         margin: auto;
-        padding: 0 1rem;
+        margin-bottom: 2%;
+        padding: 0;
         display: flex;
         gap: 2rem;
         z-index: 4;
@@ -89,7 +90,7 @@
         background-position: center top;
     }
 
-    .out-cont{
+    .about-cont{
         width: 80%;
     }
 
@@ -135,6 +136,18 @@
         max-width: 220px;
         max-height: 220px;
     }
-
     
+}
+
+@media screen and (max-width: 369px){
+
+   
+
+    .nav-links{
+        width: auto;
+        gap: 1.5rem;
+        display: none;
+    }
+
+        
 }
