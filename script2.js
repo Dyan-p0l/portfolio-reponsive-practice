@@ -44,9 +44,7 @@ function scrollToEl (ElSelector){
         circle2.classList.remove('circ2');
         circle3.classList.remove('circ3');
     }
-    percentage(80, num1);
-    percentage(76, num2);
-    percentage(70, num3);
+    
 }
 
 const link1 = document.querySelector('.link1');

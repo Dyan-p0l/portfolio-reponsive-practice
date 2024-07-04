@@ -115,7 +115,6 @@
         gap: 3rem;
         row-gap: 6rem;
         width: 489px;
-        padding-left: 2.4rem;
     }
 
     .sjs{
@@ -131,7 +130,7 @@
         padding-top: 0;
     }
 
-    .shtml{
+    .shtml{ 
         max-width: 220px;
         max-height: 220px;
     }
@@ -213,15 +212,35 @@
     }
 
     .skills > div{
-        width: 60px;
-        height: 60px;
+        width: 150px;
+        height: 150px;
      /* background-color: #ff0000; */
     }  
 
+    .container3{
+        height: auto;
+    }
+
+    .skill-word{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
     .skills{
+        width: auto;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        row-gap: 10rem;
+        row-gap: 5rem;
+    }
+    
+    .outer{
+        margin-bottom: 5px;
+    }
+
+    .label1, .label2, .label3{
+        font-size: 1.1em;
     }
 
     .about-cont{
@@ -237,7 +256,7 @@
         width: 50%;
         height: 230px;
     }
-    
+
     .con-btn{
         width: 2rem;
         height: 2rem;
@@ -258,7 +277,11 @@
         font-size: 2.7rem;
         padding: 0;
     }
-
-
+    
+    .skills-word-cont{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+    }
 
 }

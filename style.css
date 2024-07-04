@@ -414,7 +414,9 @@ section h1{
 }
 
 .container3{
+    position: none;
     background-color: #000000;
+    overflow-y: hidden;
     height: 700px;
 }
 
@@ -432,6 +434,7 @@ section h1{
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .skills > div{
