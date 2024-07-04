@@ -83,11 +83,10 @@
     }
 
     .pic-cont{
-        height: 390px;
-        width: 76%;
-        background-size: cover;
+        height: 270px;
+        width: 70%;
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: center;
     }
 
     .about-cont{
@@ -95,7 +94,7 @@
     }
 
     .about-text{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .proj-cont{
@@ -141,6 +140,18 @@
 
 @media screen and (max-width: 380px){
 
+    nav{
+        top: 1rem;
+        position: sticky; 
+    }
+
+    .ul-cont{
+        width: 280px;
+        height: 2rem;
+        font-size: .8em;
+        gap: 1rem;
+    }
+
     .nav-links{
         width: auto;
         gap: 1.5rem;
@@ -153,6 +164,7 @@
         align-items: center;
         column-gap: 3rem;
         padding: 0;
+        margin-top: 2rem;
         gap: 1.3rem;
     }
 
@@ -163,11 +175,11 @@
     }
 
     h1{
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     h2{
-        font-size: .9rem;
+        font-size: .99rem;
     }
     
     .hirebtn{
@@ -176,7 +188,9 @@
     }
 
     .h-cont{
+        padding-left: 0;
         max-width: 80%;
+        text-align: justify;
     }
 
     .conbtn-cont{
@@ -209,5 +223,42 @@
         flex-direction: column;
         row-gap: 10rem;
     }
+
+    .about-cont{
+        width: 80%;
+    }
+
+    .about-text{
+        font-size: .7em;
+    }
+
+    .pic-cont{
+        margin-bottom: 2rem;
+        width: 50%;
+        height: 230px;
+    }
+    
+    .con-btn{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .con-btn i{
+        font-size: 1.8em;
+    }
+
+    .about-word-cont h1{
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 2.7rem;
+        padding: 2rem .5rem;
+    }
+
+    .projects-word-cont h1{
+        font-size: 2.7rem;
+        padding: 0;
+    }
+
+
 
 }
