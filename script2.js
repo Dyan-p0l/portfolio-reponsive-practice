@@ -1,5 +1,3 @@
-
-
 const circle1 = document.getElementById('rounded1');
 const circle2 = document.getElementById('rounded2');
 const circle3 = document.getElementById('rounded3');
@@ -39,6 +37,7 @@ function scrollToEl (ElSelector){
     const el = document.querySelector(ElSelector);
 
     el.scrollIntoView({behavior:'smooth'}, alignToTop = true);
+    
     if (!el.classList.contains('container3')) {
         circle1.classList.remove('circ1');
         circle2.classList.remove('circ2');
